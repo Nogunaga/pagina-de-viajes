@@ -155,11 +155,11 @@ img {
 }
 
 .ofertas__cards--japon {
-    background-image: url("./img/tokyo.png");
+    background-image: url("asset/img/tokyo.png");
 }
 
 .ofertas__cards--san-andreas {
-    background-image: url("./img/san-andreas.png");
+    background-image: url("asset/img/san-andreas.png");
 }
 
 
@@ -256,8 +256,14 @@ span.material-symbols-outlined {
     justify-content: center;
 }
 
-.destinos__elemento--image {
+.destinos__elemento--image
+{
     max-width: 100%;
+    border-radius: 15px;
+}
+
+.destinos__item--image {
+    border-radius: 15px;
 }
 
 .destinos__elemento--nombre {
